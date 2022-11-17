@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FieldsetPage</title>
+    <link rel="stylesheet" href="/CSS/style.css"/>
+</head>
+<body>
+    <form action="POST">
+        <fieldset style="width: fit-content;">
+            
+            <table>
+                <!-- Legend Form -->
+                <legend>Form Mahasiswa</legend>
+            
+                <tr>
+                    <!-- Nama Siswa Inputfield -->
+                    <td> <label for="namaSiswa">Nama Siswa</label> </td>
+                    <td>:</td> <td></td>
+                    <td> <input type="text" class="namaSiswa" name="namaSiswa"> </td>
+                </tr>
+
+                <tr>
+                    <!-- NIM Siswa Inputfield -->
+                    <td><label for="nimSiswa">NIM Siswa</label></td>
+                    <td>:</td> <td></td>
+                    <td><input type="number" class="nimSiswa" name="nimSiswa"></td>
+                </tr>
+
+                <tr>
+                    <!-- Dropdown List -->
+                    <td><label for="fakultasSiswa">Fakultas</label></td> <td>:</td> <td></td>
+                        <td><select name="fakultasSiswa">
+                            <option value="Sains dan Teknologi">Sains dan Teknologi</option>
+                            <option value="Fakultas Teknik">Fakultas Teknik</option>
+                            <option value="Psikologi">Fakultas Psikologi</option>
+                        </select></td>
+                </tr>
+
+                <!-- Submit Button -->
+                <td>Selesaikan</td> <td>:</td> <td></td>
+                <td> <input type="button" value="Submit"> </td>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+</html>
